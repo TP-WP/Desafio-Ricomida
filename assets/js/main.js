@@ -19,6 +19,6 @@ $(document).ready(function () {
     },
   });
   $(".card-title").click(function () {
-    $(".card").toggle("3s");
+    $(".card-text").toggle();
   });
 });
